@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+body{
+	background-color: #F8F8F8;
+	font-family: "Montserrat";
+}
+
+nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:10%;
+	width:100%;	
+	background-color: black;
+	min-height: 65px;
+}
+
+h1 {
+    color: #990000;
+    font-family: "Lora";
+    font-weight: bold;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.Lora{
+	font-family: "Lora";
+}
+
+.threeBarLayout > ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	width: 100%;
+}
+
+.threeBarLayout > ul > li {
+	border: 1vw solid white;
+	border-radius: 3vw;
+	background-color: white;
+	
+	width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+	margin-top: 8vh;
+	z-index: -1;
+}
+
+hr{
+	border: 0;
+	clear: both;
+	display: block;
+	width: 100%;
+	background-color: #990000;
+	height: 2px;
+	margin-top: -5%;
+}
+
+.threeBarLayout > ul > li > p {
+	font-family: "Lora";
+    font-size: 1.1vw;
+	margin-top: -2%;
+}
+
+.threeBarLayout > ul > li > ul {
+	font-family: "Lora";
+	font-size:1.1vw;
+}
+
+#firstParagraphOnThreeBar{
+	margin-top: -1%;
+}
+
+.threeBarLayout > ul > li > h2{
+	margin-top: 0%;
+	margin-bottom: 5%;
+	font-weight: 700;
+}
+
+.threeBarLayout{
+	list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    height: 75%;
+	
+	margin-top: -5%;
+}
+
+footer {
+	min-height: 1.5em;
+	height: 10vh;
+	max-height: 2.5em;
+	
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
