@@ -3,35 +3,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
-body{
-	background-color: #F8F8F8;
-	font-family: "Montserrat";
-}
-
-nav{
-	position: absolute;
-	top: 0;
-	left: 0;
-	height:10%;
-	width:100%;	
-	background-color: black;
-	min-height: 65px;
-}
-
-h1 {
-    color: #990000;
-    font-family: "Lora";
-    font-weight: bold;
-    margin-top: 6%;
-    display: flex;
-    justify-content: center;
-}
-
-.Lora{
-	font-family: "Lora";
-}
-
 .bigLeftSmallRight {
+	background-color: white;
+	border-radius: 2vw;
+	
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -51,7 +26,8 @@ h1 {
 #homePageImage{
 	width: 58vw;
 	aspect-ratio:1.77777778;
-	border:.16vw solid #990000;
+	border:.16vw solid #005522;
+	border-radius: 1.75vw;
 }
 
 .smallRight{
@@ -62,7 +38,7 @@ h1 {
 }
 
 .smallRight > p {
-	font-size: calc(1.1vw);
+	font-size: calc(1.25vw);
 }
 
 hr{
@@ -70,18 +46,37 @@ hr{
 	clear: both;
 	display: block;
 	width: 100%;
-	background-color: #990000;
+	background-color: #005522;
 	height: 2px;
 }
 
-footer {
-	min-height: 1.5em;
-	height: 10vh;
-	max-height: 2.5em;
-	
+#manufacturerButtonList {
     display: flex;
     align-content: center;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+	margin-top: 1.5vh;
+}
+
+#manufacturerButtonList > a > button{
+	border: 2px solid #005522;
+	border-radius: 10vh;
+	
+	height: calc(5vh + 1em);
+	width: 15vw;
+	
+	margin-left: 1vw;
+	margin-right: 1vw;
+	
+	background-color:#157525;
+	
+	font-family: "Montserrat";
+	font-size: calc(1.5em - 0.5vh);
+	color: white;
+	
+	transition: background-color 0.5s, color 0.5s;
+}
+
+#manufacturerButtonList > a > button:hover{
+	background-color: white;
+	color: #005522;
 }

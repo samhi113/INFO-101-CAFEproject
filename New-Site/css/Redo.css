@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+
+body {
+    background-color: #f0f0f0;
+}
+
+
+/* An epic nav bar made by Sam */
+nav {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	
+	width: 100vw;
+	height: 3vh;
+	min-height: 3em;
+	
+	background: #000000;
+	font-family: "Montserrat";
+	
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.noUnderline {
+	text-decoration: none;
+}
+
+#navTitle {
+	color: #FFFFFF;
+	margin: 2vw;
+	height: 3vh;
+	min-height: 3em;
+	width: 30vw;
+	
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	font-size-adjust: none;
+}
+
+.navItem {
+	margin: 2vw;
+	height: 3vh;
+	min-height: 3em;
+	width: 10vw;
+	
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+	
+	color: #FFFFFF;
+	font-size-adjust: none;
+	
+	transition: background-color 0.5s, font-weight 0.5s, width 0.5s;
+	transition-delay: border-radius 0.5s;
+	background-color: #000000;
+	font-weight: normal;
+}
+
+.navItem:hover {
+	background-color: #005522;
+	font-weight: bold;
+	width: 13.25vw;
+}
+
+/* This has been an epic nav bar with Sam */
+
+
+div#no {
+    box-shadow:
+        /* Horizontal | Vertical | Blur | Spread | Color | Optional: Inset the Shadow */
+            2px 0 0 0 #888,
+            0 2px 0 0 #888,
+            2px 2px 0 0 #888,   /* Just to fix the corner */
+            2px 0 0 0 #888 inset,
+            0 2px 0 0 #888 inset;
+}
+
+.flexContainerPrimary {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 15px 30px;
+
+}
+
+
+.flexContainerPrimary > .flexContainerSecondary {
+    flex-grow: 1;
+    max-width: 33%;
+
+}
+
+
+.flexContainerPrimary >.large {
+    flex-grow: 0;
+    min-width: 1350px;
+    max-width: 70%;
+}
+
+.flexContainerSecondary{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: content;
+    align-items: center;
+}
+
+.flexContainerSecondary > .sectionContainer{
+    display: flex;
+    border-radius: 15px;
+    flex-flow: column nowrap;
+    padding: 0 15px;
+}
+
+
+
+
+.sectionContainer {
+    background-color: white;
+    text-align: center;
+    margin: 10px 15px;
+}
+
+
+
+
+.sectionContainer > .sectionHead {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+}
+
+.sectionContainer > hr {
+    border: 0px solid black;
+    background-color: #005522;
+
+}
+
+.sectionContainer > hr {
+    padding: 1px 0;
+    margin: 15px 5px;
+
+}
+
+.sectionContainer > .sectionBody {
+    font-family: "Lora", sans-serif;
+    font-size: x-small;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.sectionContainer > .sectionEnd {
+    margin-bottom: 20px;
+}
+
+.sectionBody > ul {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+img#DataSetTable {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+img.graph {
+    display: block;
+    margin: 0 auto;
+    height: 720px;
+    width: 1280px;
+}
+
+.graphContainer {
+    flex-basis: content;
+}
+
+
+#navbar {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    background-color: #000000;
+    vertical-align: center;
+    margin: 0;
+    padding: 0 15px;
+}
+
+#navbar > div {
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.pages {
+    font-family: inherit;
+    color: inherit;
+    border: solid 0px #282828;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0px 0px;
+    transition: background-color 500ms, font-size 500ms, color 500ms;
+}
+
+.pages:hover,.pages:focus,.pages:active {
+    background-color: #ffffff;
+    color: #005522;
+    font-size: large;
+    font-weight: bold;
+    transition: background-color 200ms, font-size 200ms;
+}
+
+
+.pages a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 500ms;
+}
+
+.pages a > div {
+    padding: 10px 0;
+}
+
+.pages  a:hover,a:focus{
+    color: #005522;
+    transition: color 500ms;
+
+}
+
+.pages {
+
+}
+
+#navbar .section {
+    margin: auto 0;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#websiteTitle{
+    font-size: larger;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}

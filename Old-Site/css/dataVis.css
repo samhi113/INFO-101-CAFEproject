@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+.bigLeftSmallRight {
+	background-color: white;
+	border-radius: 2vw;
+	
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bigLeftSmallRight > * {
+	margin: 2%;
+    margin-top: 0%;
+}
+
+.bigLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#homePageImage{
+	width: 58vw;
+	aspect-ratio:1.77777778;
+	border:.16vw solid #005522;
+	border-radius: 1.75vw;
+}
+
+.smallRight{
+	width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smallRight > p {
+	font-size: calc(1.25vw);
+}
+
+hr{
+	border: 0;
+	clear: both;
+	display: block;
+	width: 100%;
+	background-color: #005522;
+	height: 2px;
+}
+
+#manufacturerButtonList {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+	margin-top: 1.5vh;
+}
+
+#manufacturerButtonList > a > button{
+	border: 2px solid #005522;
+	border-radius: 10vh;
+	
+	height: calc(5vh + 1em);
+	width: 15vw;
+	
+	margin-left: 1vw;
+	margin-right: 1vw;
+	
+	background-color:#157525;
+	
+	font-family: "Montserrat";
+	font-size: calc(1.5em - 0.5vh);
+	color: white;
+	
+	transition: background-color 0.5s, color 0.5s;
+}
+
+#manufacturerButtonList > a > button:hover{
+	background-color: white;
+	color: #005522;
+}

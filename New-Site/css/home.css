@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+.bigLeftSmallRight {
+	background-color: white;
+	border-radius: 2vw;
+	
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bigLeftSmallRight > * {
+	margin: 2%;
+    margin-top: 0%;
+}
+
+.bigLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#homePageImage{
+	width: 58vw;
+	aspect-ratio: 1.77777778;
+	border:.16vw solid #005522;
+	border-radius: 2vw;
+}
+
+.smallRight{
+	width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smallRight > p {
+	font-size: calc(0.5em + 0.5vw);
+}
+
+hr{
+	border: 0;
+	clear: both;
+	display: block;
+	width: 100%;
+	background-color: #005522;
+	height: 2px;
+}
+
+footer {
+	min-height: 1.5em;
+	height: 10vh;
+	max-height: 2.5em;
+	
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
